@@ -13,4 +13,4 @@ class LogDetails {
         return "User name: {$user->getName()} and Log name: {$log->getName()} ";
     }
 
-}
+}   
