@@ -14,5 +14,8 @@
     "psr-4" : {
       "test1\\Src\\" : "src/"
     }
+  },
+  "require" : {
+    "symfony/http-foundation": "3.0.*@dev"
   }
 }

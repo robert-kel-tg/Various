@@ -13,4 +13,13 @@ $log_get_details = $log_details->getDetails(
     new Log('metinis')
 );
 
-echo '<pre>';die(print_r($log_get_details));echo '</pre>';
+
+use Symfony\Component\HttpFoundation\Response;
+
+$response = new Response();
+$response->setContent(json_encode(array(
+    'User' => (new User('Jonas'))->getName(),
+    'Log' => (new Log('metinis'))->getName()
+)));
+$response->headers->set('Content-Type', 'application/json');
+$response->send();
