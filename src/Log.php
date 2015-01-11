@@ -1,5 +1,7 @@
 <?php
 
+namespace test1\Src;
+
 class Log {
 
     private $_name;

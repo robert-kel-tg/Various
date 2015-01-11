@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: robertas
- * Date: 11/01/15
- * Time: 01:23
- */
+
+namespace test1\Src;
 
 class LogDetails {
 
@@ -13,4 +9,4 @@ class LogDetails {
         return "User name: {$user->getName()} and Log name: {$log->getName()} ";
     }
 
-}   
+}

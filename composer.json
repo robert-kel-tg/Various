@@ -12,7 +12,7 @@
 ,
   "autoload": {
     "psr-4" : {
-      "test1\\Src\\" : "Src/"
+      "test1\\Src\\" : "src/"
     }
   }
 }
